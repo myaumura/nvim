@@ -1,6 +1,5 @@
 return {
 	"catppuccin/nvim",
-	lazy = true,
 	name = "catppuccin",
 	opts = {
 		lsp_styles = {
@@ -13,6 +12,6 @@ return {
 		},
 	},
 	config = function()
-		vim.cmd.colorscheme("catppuccin macciato")
+		vim.cmd.colorscheme("catppuccin-macchiato")
 	end,
 }
